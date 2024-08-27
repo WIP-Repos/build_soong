@@ -231,7 +231,7 @@ var Configuration = map[string]PathConfig{
 	"ld":         Forbidden,
 	"ld.bfd":     Forbidden,
 	"ld.gold":    Forbidden,
-	"pkg-config": Allowed,
+	"pkg-config": Forbidden,
 
 	// These are toybox tools that only work on Linux.
 	"pgrep": LinuxOnlyPrebuilt,
